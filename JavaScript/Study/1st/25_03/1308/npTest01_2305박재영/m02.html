@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>2. 더하기 퀴즈 게임</title>
+</head>
+
+<body>
+    <div>퀴즈를 시작하려면 버튼을 눌러주세요.</div>
+    <div id="resultMsg"></div>
+    <button id="startQuizBtn" onclick="startQuiz()">퀴즈 시작</button>
+
+    <script>
+        /*
+            정답일 때 : "정답!"
+            오답일 때 : "오답! 정답은 ~~입니다." * ~~는 정답을 표현
+            숫자가 아님 : “숫자를 입력해주세요”
+            퀴즈 종료시 : 퀴즈 종료! 5문제중 ~~문제 맞췄습니다.
+        */
+        function startQuiz() {
+            let count = 0;
+            for( let i = 0 ; i < 5 ; i++ ) {
+                let num1 = Math.floor(Math.random() * 50 + 1);
+                let num2 = Math.floor(Math.random() * 50 + 1);
+                let input = 0;
+                input = prompt(`${num1} + ${num2} = ?`);
+                console.log( typeof(input) );
+                if( typeof(input) == typeof(0) ) {
+                    alert("숫자를 입력해주세요");
+                    i -= 1;
+                    continue;
+                } // if
+                if (input == num1 + num2) {
+                    alert("정답!");
+                    count += 1;
+                }else {
+                    alert(`오답! 정답은 ${num1 + num2}입니다.`);
+                } // else
+                
+            }
+            document.getElementById( "resultMsg" ).innerText = `퀴즈 종료! 5문제중 ${count}문제 맞췄습니다.`;
+        } // startQuiz
+    </script>
+</body>
+
+</html>

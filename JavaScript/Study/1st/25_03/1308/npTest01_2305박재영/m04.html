@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4.로그인 로그아웃 기능</title>
+    <style>
+        .login {
+            background-color: #e0e0e0;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" id="textInput" placeholder="이름을 입력하세요">
+    <button id = "loginBtn" onclick = "login()">로그인</button>
+    <button id = "logoutBtn" onclick = "logout()">로그아웃</button>
+    <div id="showMsg"></div>
+
+    <script>
+        // DOM 요소 가져오기
+        const textInput = document.getElementById('textInput');
+        const loginBtn = document.getElementById('loginBtn');
+        const logoutBtn = document.getElementById('logoutBtn');
+        const showMsg = document.getElementById('showMsg');
+
+        function login() {
+            localStorage.setItem( "user", textInput.value );
+            var user = localStorage.getItem( "user" );
+            showMsg.innerText = `${user}님 안녕하세요`;
+        }
+        function logout() {
+            showMsg.innerText = "";
+            textInput.innerText = "";
+        }
+
+    </script>
+</body>
+</html>

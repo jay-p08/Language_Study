@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>검색어 저장</title>
+    <style>
+        #searchHistory div {
+            margin: 10px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 5px;
+            background-color:lightskyblue;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="search-container">
+        <input type="text" id="textInput" placeholder="검색어를 입력하세요">
+        <button id="searchBtn" onclick = "search()">검색</button>
+    </div>
+    <div id="searchHistory"></div>
+
+    <script>
+        const textInput = document.getElementById('textInput');
+        const searchBtn = document.getElementById('searchBtn');
+        const searchHistory = document.getElementById('searchHistory');
+
+        let sites = [];
+      let saved = localStorage.getItem('sites');
+      if (saved) {
+        sites = JSON.parse(saved);
+        showList();
+      }
+
+      function search() {
+        let name = document.getElementById("textInput").value;
+        let site = {name};
+        sites.push(site);
+        localStorage.setItem('sites', JSON.stringify(sites));
+        showList();
+      }
+
+      function showList() {
+        let list = document.getElementById("searchHistory");
+        list.innerHTML = '';
+        sites.forEach(i => {
+          list.innerText += `${i.name}\n`;
+          document.getElementById("textInput").value = null;
+        })
+      }
+    </script>
+</body>
+</html>

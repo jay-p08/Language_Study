@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1. 배열 값 계산기</title>
+</head>
+<body>
+    <script>
+        const getArray = ( arr, type = "len" ) => {
+            let re = 0;
+            if( type === "sum" ) {
+                for( x of arr ) {
+                    if( x >= 0 || 0 >= x )
+                        re += x;
+                }
+            } else if( type === "average" ) {
+                for( x of arr ) {
+                    re += x;
+                }
+                re /= arr.length;
+            } else{
+                for( x of arr ) {
+                    if( x >= 0 || 0 >= x ) re += 1;
+                }
+            }
+            return re
+        }
+        console.log(getArray([1, 2, 3, 4, 5], "sum"));         // 15
+        console.log(getArray([1, 2, 3, "a", null], "sum"));    // 6
+        console.log(getArray([10, 20, 30], "average"));        // 20
+        console.log(getArray([1, 2, "b", 3, "4"], "len"));     // 4
+        console.log(getArray([1, 2, 3]));                      // 3
+        console.log(getArray([0, 1, 2, 3], "something"));      // 4
+        console.log(getArray(["a", "b"], "sum"));              // 0
+    </script>
+</body>
+</html>

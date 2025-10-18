@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NP</title>
+</head>
+<body>
+    <h1>NP 3</h1>
+    <button onclick = "alert( '버튼이 클릭되었습니다!' )">클릭하세요</button>
+    <ul id = "result">
+        <li onclick = "ChangeBg( this.textContent )">green</li>
+        <li onclick = "ChangeBg( this.textContent )">orange</li>
+        <li onclick = "ChangeBg( this.textContent )">purple</li>
+    </ul>
+
+    <button onclick="hideElement()">숨기기</button> <button onclick="noHideElement()">생기기</button>
+    <div id="box" style="width: 100px; height: 100px; background-color: chocolate;"></div>
+
+    <button onclick="changeRandomColor()">배경색 변경</button>
+
+    
+    <script src="JavaScript_3.js"></script>
+</body>
+</html>

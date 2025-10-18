@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>3. 점수 증감 시스템</title>
+    <style>
+        #score {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .high {
+            color: blue;
+        }
+
+        .low {
+            color: red;
+        }
+
+        .normal {
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <span id="score">50</span>
+        <button onclick="p()">+</button>
+        <button onclick="m()">-</button>
+    </div>
+    <script>
+        var score = document.getElementById("score");
+        var num = localStorage.getItem( "count" );
+        var NColor = localStorage.getItem( "color" );
+
+        function p() {
+            
+            console.log(num);
+            score.innerText = `${Number(score.innerText) + 1}`;
+            chColor()
+        } // p()
+        function m() {
+            console.log(num);
+            score.innerText = `${Number(score.innerText) - 1}`;
+            chColor()
+        } // m()
+
+        function chColor() {
+            if (Number(score.innerText) >= 90) score.classList.value = "high";
+            else if (Number(score.innerText) <= 40) score.classList.value = "low";
+            else score.classList.value = "norma";
+            localStorage.setItem( "count", score.innerText );
+            localStorage.setItem( "color", score.classList.value );
+        }
+    </script>
+</body>
+
+</html>
