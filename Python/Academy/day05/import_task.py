@@ -1,0 +1,1 @@
+from day05.class_import import kim2
