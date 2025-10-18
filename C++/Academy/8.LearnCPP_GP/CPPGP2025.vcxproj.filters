@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ZD3D11">
+      <UniqueIdentifier>{769aa0d7-6a00-46fe-8464-3eb642e4c2da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exception">
+      <UniqueIdentifier>{7e0edee4-a741-4323-a9dc-943586fc27bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{19eb4e82-2ff2-483c-89d2-6c6be3348ac0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ZApplication.cpp">
+      <Filter>ZD3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="ZGraphics.cpp">
+      <Filter>ZD3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ZMatrix.cpp">
+      <Filter>ZD3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="ZVector3.cpp">
+      <Filter>ZD3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="ZVector4.cpp">
+      <Filter>ZD3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="ChiliException.cpp">
+      <Filter>Exception</Filter>
+    </ClCompile>
+    <ClCompile Include="dxerr.cpp">
+      <Filter>Exception</Filter>
+    </ClCompile>
+    <ClCompile Include="DxgiInfoManager.cpp">
+      <Filter>Exception</Filter>
+    </ClCompile>
+    <ClCompile Include="ZGraphicsResource.cpp">
+      <Filter>ZD3D11</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Bitmap.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMain.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GameGlobal.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ZD3D11.h">
+      <Filter>ZD3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="ZApplication.h">
+      <Filter>ZD3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="ZGraphics.h">
+      <Filter>ZD3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="ZMatrix.h">
+      <Filter>ZD3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="ZVector3.h">
+      <Filter>ZD3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="ZVector4.h">
+      <Filter>ZD3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="ChiliException.h">
+      <Filter>Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="ChiliWin.h">
+      <Filter>Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="ChiliWRL.h">
+      <Filter>Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="dxerr.h">
+      <Filter>Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="DxgiInfoManager.h">
+      <Filter>Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsThrowMacros.h">
+      <Filter>Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsThrowMacros.h">
+      <Filter>Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="ZGraphicsResource.h">
+      <Filter>ZD3D11</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DXGetErrorDescription.inl">
+      <Filter>Exception</Filter>
+    </None>
+    <None Include="DXGetErrorString.inl">
+      <Filter>Exception</Filter>
+    </None>
+    <None Include="DXTrace.inl">
+      <Filter>Exception</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="VertexShader.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="PixelShader.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="VertexShaderColMajor.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="VertexShaderCube.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="PixelShaderCubeDepth.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="VertexShaderCubeDepth.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="PixelShaderEx.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="VertexShaderConst.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

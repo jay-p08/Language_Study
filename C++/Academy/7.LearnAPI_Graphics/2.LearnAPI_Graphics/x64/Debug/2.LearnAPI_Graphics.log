@@ -1,0 +1,9 @@
+﻿  2.LearnAPI_Graphics.cpp
+D:\C++\Academy\C++\2.LearnAPI_Graphics\2.LearnAPI_Graphics\2.LearnAPI_Graphics.cpp(196,60): warning C4101: 'oldBrush' :참조되지 않은 지역 변수입니다.
+D:\C++\Academy\C++\2.LearnAPI_Graphics\2.LearnAPI_Graphics\2.LearnAPI_Graphics.cpp(196,46): warning C4101: 'newHatBrush2' :참조되지 않은 지역 변수입니다.
+D:\C++\Academy\C++\2.LearnAPI_Graphics\2.LearnAPI_Graphics\2.LearnAPI_Graphics.cpp(196,20): warning C4101: 'newSolBrush' :참조되지 않은 지역 변수입니다.
+D:\C++\Academy\C++\2.LearnAPI_Graphics\2.LearnAPI_Graphics\2.LearnAPI_Graphics.cpp(179,18): warning C4101: 'newPen1' :참조되지 않은 지역 변수입니다.
+D:\C++\Academy\C++\2.LearnAPI_Graphics\2.LearnAPI_Graphics\2.LearnAPI_Graphics.cpp(196,33): warning C4101: 'newHatBrush' :참조되지 않은 지역 변수입니다.
+D:\C++\Academy\C++\2.LearnAPI_Graphics\2.LearnAPI_Graphics\2.LearnAPI_Graphics.cpp(179,36): warning C4101: 'oldPen' :참조되지 않은 지역 변수입니다.
+D:\C++\Academy\C++\2.LearnAPI_Graphics\2.LearnAPI_Graphics\2.LearnAPI_Graphics.cpp(179,27): warning C4101: 'newPen2' :참조되지 않은 지역 변수입니다.
+  2.LearnAPI_Graphics.vcxproj -> D:\C++\Academy\C++\2.LearnAPI_Graphics\x64\Debug\2.LearnAPI_Graphics.exe

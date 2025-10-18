@@ -1,0 +1,61 @@
+//---------------------------------------------------------------------------//
+// Space Out Resources
+// RC Source - SpaceOut.rc
+// Date : 2003.11.09
+//---------------------------------------------------------------------------//
+
+
+
+
+
+//---------------------------------------------------------------------------//
+// Include Files
+//---------------------------------------------------------------------------//
+#include "Resource.h"
+
+
+
+
+
+//---------------------------------------------------------------------------//
+// Icons
+//---------------------------------------------------------------------------//
+IDI_SPACEOUT          ICON         "_ResICO\\SpaceOut.ico"
+IDI_SPACEOUT_SM       ICON         "_ResICO\\SpaceOut_sm.ico"
+
+
+
+
+
+//---------------------------------------------------------------------------//
+// Bitmaps
+//---------------------------------------------------------------------------//
+IDB_SPLASH            BITMAP       "_ResBMP\\Splash.bmp"
+IDB_DESERT            BITMAP       "_ResBMP\\Desert.bmp"
+IDB_CAR               BITMAP       "_ResBMP\\Car.bmp"
+IDB_SMCAR             BITMAP       "_ResBMP\\SmCar.bmp"
+IDB_MISSILE           BITMAP       "_ResBMP\\Missile.bmp"
+IDB_BLOBBO            BITMAP       "_ResBMP\\Blobbo.bmp"
+IDB_BMISSILE          BITMAP       "_ResBMP\\BMissile.bmp"
+IDB_JELLY             BITMAP       "_ResBMP\\Jelly.bmp"
+IDB_JMISSILE          BITMAP       "_ResBMP\\JMissile.bmp"
+IDB_TIMMY             BITMAP       "_ResBMP\\Timmy.bmp"
+IDB_TMISSILE          BITMAP       "_ResBMP\\TMissile.bmp"
+IDB_SMEXPLOSION       BITMAP       "_ResBMP\\SmExplosion.bmp"
+IDB_LGEXPLOSION       BITMAP       "_ResBMP\\LgExplosion.bmp"
+IDB_GAMEOVER          BITMAP       "_ResBMP\\GameOver.bmp"
+
+
+
+
+
+//---------------------------------------------------------------------------//
+// Wave Sounds
+//---------------------------------------------------------------------------//
+IDW_MISSILE           WAVE         "_ResWAV\\Missile.wav"
+IDW_BMISSILE          WAVE         "_ResWAV\\BMissile.wav"
+IDW_JMISSILE          WAVE         "_ResWAV\\JMissile.wav"
+IDW_TMISSILE          WAVE         "_ResWAV\\TMissile.wav"
+IDW_SMEXPLODE         WAVE         "_ResWAV\\SmExplode.wav"
+IDW_LGEXPLODE         WAVE         "_ResWAV\\LgExplode.wav"
+IDW_GAMEOVER          WAVE         "_ResWAV\\GameOver.wav"
