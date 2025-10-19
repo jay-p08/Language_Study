@@ -16,6 +16,7 @@
 
 // DirectX includes
 #include <d3d11.h>
+#include <DirectXMath.h>
 #include "dxerr.h"
 #include "ChiliException.h"
 

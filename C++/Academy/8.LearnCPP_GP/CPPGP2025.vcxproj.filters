@@ -22,6 +22,12 @@
     <Filter Include="Shader">
       <UniqueIdentifier>{19eb4e82-2ff2-483c-89d2-6c6be3348ac0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Renderable">
+      <UniqueIdentifier>{b7870cb5-da11-4784-8303-5f977b28646b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Binderable">
+      <UniqueIdentifier>{ded9f8ea-b3d8-4a86-a9b1-67b7214a154f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ZApplication.cpp">
@@ -53,6 +59,33 @@
     </ClCompile>
     <ClCompile Include="ZGraphicsResource.cpp">
       <Filter>ZD3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="ZVertex.cpp">
+      <Filter>ZD3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="ZRenderable.cpp">
+      <Filter>Renderable</Filter>
+    </ClCompile>
+    <ClCompile Include="SampleBox.cpp">
+      <Filter>Renderable</Filter>
+    </ClCompile>
+    <ClCompile Include="ZPixelShader.cpp">
+      <Filter>Binderable</Filter>
+    </ClCompile>
+    <ClCompile Include="ZIndexBuffer.cpp">
+      <Filter>Binderable</Filter>
+    </ClCompile>
+    <ClCompile Include="ZVertexShader.cpp">
+      <Filter>Binderable</Filter>
+    </ClCompile>
+    <ClCompile Include="ZVertexBuffer.cpp">
+      <Filter>Binderable</Filter>
+    </ClCompile>
+    <ClCompile Include="ZTransformVSConstBuffer.cpp">
+      <Filter>Binderable</Filter>
+    </ClCompile>
+    <ClCompile Include="ZTopology.cpp">
+      <Filter>Binderable</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -107,6 +140,57 @@
     <ClInclude Include="ZGraphicsResource.h">
       <Filter>ZD3D11</Filter>
     </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ZConditionalNoExcepth.h">
+      <Filter>ZD3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="ZColor.h">
+      <Filter>ZD3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="ZVertex.h">
+      <Filter>ZD3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="ZConditionalNoexcept.h">
+      <Filter>ZD3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="ZRenderable.h">
+      <Filter>Renderable</Filter>
+    </ClInclude>
+    <ClInclude Include="SampleBox.h">
+      <Filter>Renderable</Filter>
+    </ClInclude>
+    <ClInclude Include="ZRenderableBace.h">
+      <Filter>Renderable</Filter>
+    </ClInclude>
+    <ClInclude Include="ZBindable.h">
+      <Filter>Binderable</Filter>
+    </ClInclude>
+    <ClInclude Include="ZBindableBase.h">
+      <Filter>Binderable</Filter>
+    </ClInclude>
+    <ClInclude Include="ZPixelShader.h">
+      <Filter>Binderable</Filter>
+    </ClInclude>
+    <ClInclude Include="ZIndexBuffer.h">
+      <Filter>Binderable</Filter>
+    </ClInclude>
+    <ClInclude Include="ZVertexShader.h">
+      <Filter>Binderable</Filter>
+    </ClInclude>
+    <ClInclude Include="ZVertexBuffer.h">
+      <Filter>Binderable</Filter>
+    </ClInclude>
+    <ClInclude Include="ZConstBuffer.h">
+      <Filter>Binderable</Filter>
+    </ClInclude>
+    <ClInclude Include="ZTransformVSConstBuffer.h">
+      <Filter>Binderable</Filter>
+    </ClInclude>
+    <ClInclude Include="ZTopology.h">
+      <Filter>Binderable</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="DXGetErrorDescription.inl">
@@ -144,5 +228,10 @@
     <FxCompile Include="VertexShaderConst.hlsl">
       <Filter>Shader</Filter>
     </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CPPGP2025.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>

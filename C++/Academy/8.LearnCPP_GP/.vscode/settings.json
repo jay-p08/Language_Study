@@ -5,7 +5,10 @@
     "numbers": "cpp",
     "iostream": "cpp",
     "exception": "cpp",
-    "iosfwd": "cpp"
+    "iosfwd": "cpp",
+    "vector": "cpp",
+    "iterator": "cpp",
+    "xutility": "cpp"
   },
   "C_Cpp_Runner.cCompilerPath": "gcc",
   "C_Cpp_Runner.cppCompilerPath": "g++",

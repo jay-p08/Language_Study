@@ -23,12 +23,21 @@
     <ClCompile Include="dxerr.cpp" />
     <ClCompile Include="DxgiInfoManager.cpp" />
     <ClCompile Include="GameMain.cpp" />
+    <ClCompile Include="SampleBox.cpp" />
     <ClCompile Include="ZGraphicsResource.cpp" />
     <ClCompile Include="ZApplication.cpp" />
     <ClCompile Include="ZGraphics.cpp" />
+    <ClCompile Include="ZIndexBuffer.cpp" />
     <ClCompile Include="ZMatrix.cpp" />
+    <ClCompile Include="ZPixelShader.cpp" />
+    <ClCompile Include="ZRenderable.cpp" />
+    <ClCompile Include="ZTopology.cpp" />
+    <ClCompile Include="ZTransformVSConstBuffer.cpp" />
     <ClCompile Include="ZVector3.cpp" />
     <ClCompile Include="ZVector4.cpp" />
+    <ClCompile Include="ZVertex.cpp" />
+    <ClCompile Include="ZVertexBuffer.cpp" />
+    <ClCompile Include="ZVertexShader.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Bitmap.h" />
@@ -40,14 +49,31 @@
     <ClInclude Include="GameGlobal.h" />
     <ClInclude Include="GameMain.h" />
     <ClInclude Include="GraphicsThrowMacros.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="SampleBox.h" />
     <ClInclude Include="WindowsThrowMacros.h" />
     <ClInclude Include="ZApplication.h" />
+    <ClInclude Include="ZBindable.h" />
+    <ClInclude Include="ZBindableBase.h" />
+    <ClInclude Include="ZColor.h" />
+    <ClInclude Include="ZConditionalNoexcept.h" />
+    <ClInclude Include="ZConditionalNoExcepth.h" />
+    <ClInclude Include="ZConstBuffer.h" />
     <ClInclude Include="ZD3D11.h" />
     <ClInclude Include="ZGraphics.h" />
     <ClInclude Include="ZGraphicsResource.h" />
+    <ClInclude Include="ZIndexBuffer.h" />
     <ClInclude Include="ZMatrix.h" />
+    <ClInclude Include="ZPixelShader.h" />
+    <ClInclude Include="ZRenderable.h" />
+    <ClInclude Include="ZRenderableBace.h" />
+    <ClInclude Include="ZTopology.h" />
+    <ClInclude Include="ZTransformVSConstBuffer.h" />
     <ClInclude Include="ZVector3.h" />
     <ClInclude Include="ZVector4.h" />
+    <ClInclude Include="ZVertex.h" />
+    <ClInclude Include="ZVertexBuffer.h" />
+    <ClInclude Include="ZVertexShader.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="DXGetErrorDescription.inl" />
@@ -105,6 +131,9 @@
       <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
       <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
     </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CPPGP2025.rc" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
@@ -190,7 +219,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions);IS_DEBUG=false</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
