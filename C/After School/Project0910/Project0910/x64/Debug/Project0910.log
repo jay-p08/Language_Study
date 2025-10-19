@@ -1,0 +1,3 @@
+﻿  main.c
+C:\Cworkspace\Project0910\main.c(24,9): warning C4475: 'printf' : 길이 한정자 't'은(는) 서식 지정자에서 형식 필드 문자 'f'과(와) 함께 사용할 수 없습니다.
+  Project0910.vcxproj -> C:\Cworkspace\Project0910\x64\Debug\Project0910.exe

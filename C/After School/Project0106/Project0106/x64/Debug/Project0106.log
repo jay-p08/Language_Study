@@ -1,0 +1,2 @@
+﻿  main.c
+C:\Cworkspace\Project0106\main.c(10,1): error C4700: 초기화되지 않은 'i' 지역 변수를 사용했습니다.

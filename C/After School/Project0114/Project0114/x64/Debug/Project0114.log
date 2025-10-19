@@ -1,0 +1,18 @@
+﻿  main.c
+C:\Cworkspace\Project0114\main.c(7,18): warning C4101: 'a' :참조되지 않은 지역 변수입니다.
+C:\Cworkspace\Project0114\main.c(19,42): warning C4311: '형식 캐스트': 'void *'에서 'int'(으)로 포인터가 잘립니다.
+C:\Cworkspace\Project0114\main.c(19,6): warning C4047: '=': 'int *'의 간접 참조 수준이 'int'과(와) 다릅니다.
+C:\Cworkspace\Project0114\main.c(20,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
+C:\Cworkspace\Project0114\main.c(20,9): warning C4313: 'printf': 서식 문자열의 '%d'이(가) int *' 형식의 인수 1과(와) 충돌합니다.
+C:\Cworkspace\Project0114\main.c(20,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'int *'입니다.
+C:\Cworkspace\Project0114\main.c(20,9): warning C4313: 'printf': 서식 문자열의 '%d'이(가) int *' 형식의 인수 2과(와) 충돌합니다.
+C:\Cworkspace\Project0114\main.c(21,8): warning C4047: '=': 'int *'의 간접 참조 수준이 'int'과(와) 다릅니다.
+C:\Cworkspace\Project0114\main.c(21,20): warning C4047: '=': 'int *'의 간접 참조 수준이 'int'과(와) 다릅니다.
+C:\Cworkspace\Project0114\main.c(21,32): warning C4047: '=': 'int *'의 간접 참조 수준이 'int'과(와) 다릅니다.
+C:\Cworkspace\Project0114\main.c(22,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
+C:\Cworkspace\Project0114\main.c(22,9): warning C4313: 'printf': 서식 문자열의 '%d'이(가) int *' 형식의 인수 1과(와) 충돌합니다.
+C:\Cworkspace\Project0114\main.c(22,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'int *'입니다.
+C:\Cworkspace\Project0114\main.c(22,9): warning C4313: 'printf': 서식 문자열의 '%d'이(가) int *' 형식의 인수 2과(와) 충돌합니다.
+C:\Cworkspace\Project0114\main.c(22,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 3의 형식이 'int *'입니다.
+C:\Cworkspace\Project0114\main.c(22,9): warning C4313: 'printf': 서식 문자열의 '%d'이(가) int *' 형식의 인수 3과(와) 충돌합니다.
+  Project0114.vcxproj -> C:\Cworkspace\Project0114\x64\Debug\Project0114.exe

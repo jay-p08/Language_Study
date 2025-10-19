@@ -1,0 +1,6 @@
+﻿  main.c
+C:\Cworkspace\Project1126\main.c(47,5): warning C4133: '=': 'int *'과(와) 'char *' 사이의 형식이 호환되지 않습니다.
+C:\Cworkspace\Project1126\main.c(48,3): warning C4013: 'getch'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Cworkspace\Project1126\main.c(55,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
+C:\Cworkspace\Project1126\main.c(55,9): warning C4313: 'printf': 서식 문자열의 '%d'이(가) int *' 형식의 인수 1과(와) 충돌합니다.
+  Project1126.vcxproj -> C:\Cworkspace\Project1126\x64\Debug\Project1126.exe

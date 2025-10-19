@@ -1,0 +1,4 @@
+﻿  main.c
+C:\Cworkspace\Project1017\main.c(73,8): warning C4013: 'strcmp'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Cworkspace\Project1017\main.c(77,12): warning C4013: 'strlen'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  Project1017.vcxproj -> C:\Cworkspace\Project1017\x64\Debug\Project1017.exe

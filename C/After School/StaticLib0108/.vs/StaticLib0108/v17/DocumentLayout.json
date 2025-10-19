@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Cworkspace\\StaticLib0108\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{32963DB7-E29D-4886-853D-11FC8DCA2648}|StaticLib0108.vcxproj|C:\\Cworkspace\\StaticLib0108\\StaticLib0108.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{32963DB7-E29D-4886-853D-11FC8DCA2648}|StaticLib0108.vcxproj|solutionrelative:StaticLib0108.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StaticLib0108.cpp",
+              "DocumentMoniker": "C:\\Cworkspace\\StaticLib0108\\StaticLib0108.cpp",
+              "RelativeDocumentMoniker": "StaticLib0108.cpp",
+              "ToolTip": "C:\\Cworkspace\\StaticLib0108\\StaticLib0108.cpp",
+              "RelativeToolTip": "StaticLib0108.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-08T04:52:57.032Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

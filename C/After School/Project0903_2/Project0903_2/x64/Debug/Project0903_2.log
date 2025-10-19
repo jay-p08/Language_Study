@@ -1,0 +1,3 @@
+﻿  main.c
+C:\Cworkspace\Project0903_2\main.c(28,8): warning C4477: 'scanf' : 서식 문자열 '%c'에 'char *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int'입니다.
+C:\Cworkspace\Project0903_2\main.c(28,1): error C4700: 초기화되지 않은 'a' 지역 변수를 사용했습니다.
