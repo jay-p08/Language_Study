@@ -18,7 +18,7 @@ namespace Bind
         pVcbuf -> Update( gfx,
             // 전치행렬 사용 이유 : D3D( 행벡터 * 행렬 ) --> Shader( 행렬 * 열벡터 ) 전치행렬 관계
             DirectX::XMMatrixTranspose( 
-                parent.GetTransfromXM() * gfx.GetProjection()
+                parent.GetTransformXM() * gfx.GetProjection()
             )
         );
         pVcbuf -> Bind( gfx );

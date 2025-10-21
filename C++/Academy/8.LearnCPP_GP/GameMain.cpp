@@ -104,11 +104,11 @@ BOOL ZApp::Frame()
 
 
     // 고정위치
-    m_pGraphics->DrawDepthCube(
-        -(float)dValue,
-        0.0f,
-        0.0f
-    );
+    // m_pGraphics->DrawDepthCube(
+    //     -(float)dValue,
+    //     0.0f,
+    //     0.0f
+    // );
     
     // 윈도우 내에서 현재 마우스 위치
     RECT rect;
